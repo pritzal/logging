@@ -1,0 +1,48 @@
+2024-07-25 19:20:28,120 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-25 19:20:28,120 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-25 19:20:28,124 - INFO -  * Restarting with stat
+2024-07-25 19:20:28,371 - WARNING -  * Debugger is active!
+2024-07-25 19:20:28,374 - INFO -  * Debugger PIN: 100-546-867
+2024-07-25 19:20:46,435 - ERROR - Error Type: IndexError, Message: Attempted to access a list index that doesn't exist.
+2024-07-25 19:20:46,436 - INFO - 127.0.0.1 - - [25/Jul/2024 19:20:46] "[35m[1mGET /index_error HTTP/1.1[0m" 500 -
+2024-07-26 12:36:10,824 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-26 12:36:10,824 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-26 12:36:10,824 - INFO -  * Restarting with stat
+2024-07-26 12:36:11,074 - WARNING -  * Debugger is active!
+2024-07-26 12:36:11,074 - INFO -  * Debugger PIN: 100-546-867
+2024-07-26 13:50:24,152 - INFO - 127.0.0.1 - - [26/Jul/2024 13:50:24] "[33mGET / HTTP/1.1[0m" 404 -
+2024-07-26 13:50:24,443 - INFO - 127.0.0.1 - - [26/Jul/2024 13:50:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-07-26 13:50:41,359 - ERROR - Error Type: IndexError, Message: Attempted to access a list index that doesn't exist.
+2024-07-26 13:50:41,359 - INFO - 127.0.0.1 - - [26/Jul/2024 13:50:41] "[35m[1mGET /index_error HTTP/1.1[0m" 500 -
+2024-07-26 17:21:11,628 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-26 17:21:11,628 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-26 17:21:11,639 - INFO -  * Restarting with stat
+2024-07-26 17:21:11,906 - WARNING -  * Debugger is active!
+2024-07-26 17:21:11,911 - INFO -  * Debugger PIN: 100-546-867
+2024-07-26 17:35:14,268 - INFO -  * Detected change in 'C:\\Users\\vipin\\Desktop\\python\\backend\\app.py', reloading
+2024-07-26 17:35:14,309 - INFO -  * Restarting with stat
+2024-07-26 17:35:14,624 - WARNING -  * Debugger is active!
+2024-07-26 17:35:14,628 - INFO -  * Debugger PIN: 100-546-867
+2024-07-26 17:35:18,645 - INFO -  * Detected change in 'C:\\Users\\vipin\\Desktop\\python\\backend\\app.py', reloading
+2024-07-26 17:35:18,674 - INFO -  * Restarting with stat
+2024-07-26 17:35:18,942 - WARNING -  * Debugger is active!
+2024-07-26 17:35:18,946 - INFO -  * Debugger PIN: 100-546-867
+2024-07-26 17:35:59,802 - INFO - 127.0.0.1 - - [26/Jul/2024 17:35:59] "[33mGET / HTTP/1.1[0m" 404 -
+2024-07-26 17:36:00,131 - INFO - 127.0.0.1 - - [26/Jul/2024 17:36:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-07-26 17:36:16,450 - INFO - 127.0.0.1 - - [26/Jul/2024 17:36:16] "GET /logs HTTP/1.1" 200 -
+2024-07-26 17:38:54,608 - INFO - 127.0.0.1 - - [26/Jul/2024 17:38:54] "GET /logs HTTP/1.1" 200 -
+2024-07-26 17:47:01,078 - INFO -  * Detected change in 'C:\\Users\\vipin\\Desktop\\python\\backend\\app.py', reloading
+2024-07-26 17:47:01,114 - INFO -  * Restarting with stat
+2024-07-26 17:47:01,408 - WARNING -  * Debugger is active!
+2024-07-26 17:47:01,412 - INFO -  * Debugger PIN: 100-546-867
+2024-07-26 17:48:40,582 - INFO -  * Detected change in 'C:\\Users\\vipin\\Desktop\\python\\backend\\app.py', reloading
+2024-07-26 17:48:40,613 - INFO -  * Restarting with stat
+2024-07-26 17:49:31,586 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-26 17:49:31,586 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-26 17:49:31,590 - INFO -  * Restarting with stat
+2024-07-26 17:49:31,922 - WARNING -  * Debugger is active!
+2024-07-26 17:49:31,928 - INFO -  * Debugger PIN: 100-546-867
