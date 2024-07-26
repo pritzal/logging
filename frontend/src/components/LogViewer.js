@@ -1,18 +1,20 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './LogViewer.css';
+import { NavLink } from "react-router-dom";
 
 const LogViewer = () => {
   const [logs, setLogs] = useState([]);
   const [error, setError] = useState(null); // Added state for handling errors
 
-  const fetchLogs = () => {
-    axios.get(`${process.env.REACT_APP_API_URL}/logs`)
-      .then(response => {
+  useEffect(() => {
+    axios
+      .get(`http://localhost:5000/logs`)
+      .then((response) => {
         setLogs(response.data.logs);
         setError(null); // Clear previous errors
       })
-      .catch(error => {
+      .catch((error) => {
         if (error.response) {
           setError(`Error: ${JSON.stringify(error.response.data)}`);
         } else {
@@ -20,12 +22,15 @@ const LogViewer = () => {
         }
         setLogs([]); // Clear logs in case of error
       });
-  };
+  }, []);
 
   return (
     <div className="log-viewer-container">
-      <button onClick={fetchLogs}>View Logs</button>
-      {error && <p className="error-message">{error}</p>} {/* Display error message */}
+      {error && <p className="error-message">{error}</p>}{" "}
+      {/* Display error message */}
+      <NavLink style={{ color:"blue"}} to="/">
+        Back
+      </NavLink>
       {logs.length > 0 ? (
         <table>
           <thead>
@@ -37,8 +42,8 @@ const LogViewer = () => {
           </thead>
           <tbody>
             {logs.map((log, index) => {
-              const [timestamp, level, ...messageParts] = log.split(' - ');
-              const message = messageParts.join(' - ');
+              const [timestamp, level, ...messageParts] = log.split(" - ");
+              const message = messageParts.join(" - ");
               return (
                 <tr key={index}>
                   <td>{timestamp}</td>
