@@ -5,7 +5,7 @@ import LogViewer from './LogViewer';  // Import the LogViewer component
 
 const ErrorTrigger = () => {
   const handleTrigger = (endpoint) => {
-    axios.get(`${process.env.REACT_APP_API_URL}/${endpoint}`)
+    axios.get(`http://localhost:5000/${endpoint}`)
       .then(response => {
         alert(`Error Triggered: ${JSON.stringify(response.data)}`);
       })

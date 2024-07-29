@@ -7,7 +7,7 @@ const LogViewer = () => {
   const [error, setError] = useState(null); // Added state for handling errors
 
   const fetchLogs = () => {
-    axios.get(`${process.env.REACT_APP_API_URL}/logs`)
+    axios.get(`http://localhost:5000S/logs`)
       .then(response => {
         setLogs(response.data.logs);
         setError(null); // Clear previous errors
