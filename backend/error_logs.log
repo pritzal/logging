@@ -46,79 +46,33 @@
 2024-07-26 17:49:31,590 - INFO -  * Restarting with stat
 2024-07-26 17:49:31,922 - WARNING -  * Debugger is active!
 2024-07-26 17:49:31,928 - INFO -  * Debugger PIN: 100-546-867
-2024-07-26 22:36:41,687 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2024-07-29 15:06:33,004 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-2024-07-26 22:36:41,687 - INFO - [33mPress CTRL+C to quit[0m
-2024-07-26 22:36:41,709 - INFO -  * Restarting with watchdog (inotify)
-2024-07-26 22:36:41,808 - WARNING -  * Debugger is active!
-2024-07-26 22:36:41,809 - INFO -  * Debugger PIN: 124-332-890
-2024-07-26 22:38:37,284 - INFO -  * Detected change in '/home/oceakun/basics/navikenz/logging/backend/app.py', reloading
-2024-07-26 22:38:37,285 - INFO -  * Detected change in '/home/oceakun/basics/navikenz/logging/backend/app.py', reloading
-2024-07-26 22:38:37,286 - INFO -  * Detected change in '/home/oceakun/basics/navikenz/logging/backend/app.py', reloading
-2024-07-26 22:38:37,675 - INFO -  * Restarting with watchdog (inotify)
-2024-07-26 22:38:37,776 - WARNING -  * Debugger is active!
-2024-07-26 22:38:37,777 - INFO -  * Debugger PIN: 124-332-890
-2024-07-26 22:38:47,640 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2024-07-29 15:06:33,004 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-29 15:06:33,005 - INFO -  * Restarting with stat
+2024-07-29 15:06:33,213 - WARNING -  * Debugger is active!
+2024-07-29 15:06:33,213 - INFO -  * Debugger PIN: 835-627-310
+2024-07-29 15:23:12,819 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-2024-07-26 22:38:47,640 - INFO - [33mPress CTRL+C to quit[0m
-2024-07-26 22:38:47,645 - INFO -  * Restarting with watchdog (inotify)
-2024-07-26 22:38:47,748 - WARNING -  * Debugger is active!
-2024-07-26 22:38:47,748 - INFO -  * Debugger PIN: 124-332-890
-2024-07-26 22:50:38,228 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2024-07-29 15:23:12,819 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-29 15:23:12,822 - INFO -  * Restarting with stat
+2024-07-29 15:23:13,053 - WARNING -  * Debugger is active!
+2024-07-29 15:23:13,057 - INFO -  * Debugger PIN: 835-627-310
+2024-07-29 15:28:37,185 - INFO - 127.0.0.1 - - [29/Jul/2024 15:28:37] "GET /logs HTTP/1.1" 200 -
+2024-07-29 15:28:37,449 - INFO - 127.0.0.1 - - [29/Jul/2024 15:28:37] "GET /logs HTTP/1.1" 200 -
+2024-07-29 15:32:56,968 - INFO - 127.0.0.1 - - [29/Jul/2024 15:32:56] "GET /logs HTTP/1.1" 200 -
+2024-07-29 15:32:57,231 - INFO - 127.0.0.1 - - [29/Jul/2024 15:32:57] "GET /logs HTTP/1.1" 200 -
+2024-07-29 16:46:12,807 - INFO -  * Detected change in 'C:\\Users\\AayushChaudhary\\OneDrive - Navikenz\\Desktop\\logging\\backend\\app.py', reloading
+2024-07-29 16:46:12,825 - INFO -  * Restarting with stat
+2024-07-29 16:58:22,863 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-2024-07-26 22:50:38,228 - INFO - [33mPress CTRL+C to quit[0m
-2024-07-26 22:50:38,233 - INFO -  * Restarting with watchdog (inotify)
-2024-07-26 22:50:38,331 - WARNING -  * Debugger is active!
-2024-07-26 22:50:38,331 - INFO -  * Debugger PIN: 124-332-890
-2024-07-26 22:52:59,410 - INFO - 127.0.0.1 - - [26/Jul/2024 22:52:59] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:02:45,574 - INFO - 127.0.0.1 - - [26/Jul/2024 23:02:45] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:02:45,575 - INFO - 127.0.0.1 - - [26/Jul/2024 23:02:45] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:06:42,509 - INFO - 127.0.0.1 - - [26/Jul/2024 23:06:42] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:06:42,510 - INFO - 127.0.0.1 - - [26/Jul/2024 23:06:42] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:09:51,776 - INFO - 127.0.0.1 - - [26/Jul/2024 23:09:51] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:09:51,777 - INFO - 127.0.0.1 - - [26/Jul/2024 23:09:51] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:11:31,331 - INFO -  * Detected change in '/home/oceakun/basics/navikenz/logging/backend/app.py', reloading
-2024-07-26 23:11:31,331 - INFO -  * Detected change in '/home/oceakun/basics/navikenz/logging/backend/app.py', reloading
-2024-07-26 23:11:31,332 - INFO -  * Detected change in '/home/oceakun/basics/navikenz/logging/backend/app.py', reloading
-2024-07-26 23:11:31,332 - INFO -  * Detected change in '/home/oceakun/basics/navikenz/logging/backend/app.py', reloading
-2024-07-26 23:11:31,425 - INFO -  * Restarting with watchdog (inotify)
-2024-07-26 23:11:31,568 - WARNING -  * Debugger is active!
-2024-07-26 23:11:31,568 - INFO -  * Debugger PIN: 124-332-890
-2024-07-26 23:13:04,712 - INFO - 127.0.0.1 - - [26/Jul/2024 23:13:04] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:13:04,715 - INFO - 127.0.0.1 - - [26/Jul/2024 23:13:04] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:16:01,533 - INFO - 127.0.0.1 - - [26/Jul/2024 23:16:01] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:16:01,536 - INFO - 127.0.0.1 - - [26/Jul/2024 23:16:01] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:20:02,655 - INFO - 127.0.0.1 - - [26/Jul/2024 23:20:02] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:20:02,656 - INFO - 127.0.0.1 - - [26/Jul/2024 23:20:02] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:20:30,924 - INFO - 127.0.0.1 - - [26/Jul/2024 23:20:30] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:20:44,050 - INFO - 127.0.0.1 - - [26/Jul/2024 23:20:44] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:20:48,040 - INFO - 127.0.0.1 - - [26/Jul/2024 23:20:48] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:20:50,317 - INFO - 127.0.0.1 - - [26/Jul/2024 23:20:50] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:21:22,109 - INFO - 127.0.0.1 - - [26/Jul/2024 23:21:22] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:21:22,110 - INFO - 127.0.0.1 - - [26/Jul/2024 23:21:22] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:22:05,315 - INFO - 127.0.0.1 - - [26/Jul/2024 23:22:05] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:22:39,248 - INFO - 127.0.0.1 - - [26/Jul/2024 23:22:39] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:22:39,248 - INFO - 127.0.0.1 - - [26/Jul/2024 23:22:39] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:22:44,473 - INFO - 127.0.0.1 - - [26/Jul/2024 23:22:44] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:22:44,473 - INFO - 127.0.0.1 - - [26/Jul/2024 23:22:44] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:24:04,188 - INFO - 127.0.0.1 - - [26/Jul/2024 23:24:04] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:24:04,189 - INFO - 127.0.0.1 - - [26/Jul/2024 23:24:04] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:24:11,832 - INFO - 127.0.0.1 - - [26/Jul/2024 23:24:11] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:24:11,832 - INFO - 127.0.0.1 - - [26/Jul/2024 23:24:11] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:24:37,517 - INFO - 127.0.0.1 - - [26/Jul/2024 23:24:37] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:24:37,518 - INFO - 127.0.0.1 - - [26/Jul/2024 23:24:37] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:25:01,596 - INFO - 127.0.0.1 - - [26/Jul/2024 23:25:01] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:25:01,598 - INFO - 127.0.0.1 - - [26/Jul/2024 23:25:01] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:25:22,191 - INFO - 127.0.0.1 - - [26/Jul/2024 23:25:22] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:25:24,071 - INFO - 127.0.0.1 - - [26/Jul/2024 23:25:24] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:25:28,713 - INFO - 127.0.0.1 - - [26/Jul/2024 23:25:28] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:25:39,517 - INFO - 127.0.0.1 - - [26/Jul/2024 23:25:39] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:25:45,423 - INFO - 127.0.0.1 - - [26/Jul/2024 23:25:45] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:26:09,489 - INFO - 127.0.0.1 - - [26/Jul/2024 23:26:09] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:26:09,489 - INFO - 127.0.0.1 - - [26/Jul/2024 23:26:09] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:26:11,738 - INFO - 127.0.0.1 - - [26/Jul/2024 23:26:11] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:26:11,739 - INFO - 127.0.0.1 - - [26/Jul/2024 23:26:11] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:27:06,779 - INFO - 127.0.0.1 - - [26/Jul/2024 23:27:06] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:27:06,780 - INFO - 127.0.0.1 - - [26/Jul/2024 23:27:06] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:28:40,575 - INFO - 127.0.0.1 - - [26/Jul/2024 23:28:40] "GET /logs HTTP/1.1" 200 -
-2024-07-26 23:28:40,576 - INFO - 127.0.0.1 - - [26/Jul/2024 23:28:40] "GET /logs HTTP/1.1" 200 -
+2024-07-29 16:58:22,863 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-29 16:58:22,864 - INFO -  * Restarting with stat
+2024-07-29 16:58:23,225 - WARNING -  * Debugger is active!
+2024-07-29 16:58:23,227 - INFO -  * Debugger PIN: 835-627-310
+2024-07-29 16:58:51,937 - INFO - 127.0.0.1 - - [29/Jul/2024 16:58:51] "GET /logs HTTP/1.1" 200 -
+2024-07-29 16:58:52,188 - INFO - 127.0.0.1 - - [29/Jul/2024 16:58:52] "GET /logs HTTP/1.1" 200 -
+2024-07-29 16:59:23,808 - ERROR - Error Type: ZeroDivisionError, Message: Attempted to divide by zero, which is not allowed.
+2024-07-29 16:59:23,823 - INFO - 127.0.0.1 - - [29/Jul/2024 16:59:23] "[35m[1mGET /divide_by_zero HTTP/1.1[0m" 500 -
+2024-07-29 16:59:28,425 - ERROR - Error Type: TypeError, Message: Attempted to add a string and an integer, which is not supported.
+2024-07-29 16:59:28,445 - INFO - 127.0.0.1 - - [29/Jul/2024 16:59:28] "[35m[1mGET /type_error HTTP/1.1[0m" 500 -

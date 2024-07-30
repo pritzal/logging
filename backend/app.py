@@ -1,9 +1,55 @@
 from flask import Flask, jsonify
 import logging
 from flask_cors import CORS
+import mysql.connector
+from mysql.connector import Error
 
 app = Flask(__name__)
 CORS(app)
+
+# Database configuration
+db_config = {
+    'host': 'localhost',
+    'user': 'root',
+    'password': 'Aayush187@',
+    'database': 'flask_logging_db'
+}
+
+def create_connection():
+    connection = None
+    try:
+        connection = mysql.connector.connect(
+            host=db_config['host'],
+            user=db_config['user'],
+            passwd=db_config['password'],
+            database=db_config['database']
+        )
+        print("Connection to MySQL DB successful")
+    except Error as e:
+        print(f"The error '{e}' occurred")
+    return connection
+
+def execute_query(connection, query):
+    cursor = connection.cursor()
+    try:
+        cursor.execute(query)
+        connection.commit()
+        print("Query executed successfully")
+    except Error as e:
+        print(f"The error '{e}' occurred")
+
+# Create the logs table if it doesn't exist
+create_logs_table_query = """
+CREATE TABLE IF NOT EXISTS logs (
+    id INT AUTO_INCREMENT,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    level VARCHAR(50),
+    message TEXT,
+    PRIMARY KEY (id)
+);
+"""
+connection = create_connection()
+execute_query(connection, create_logs_table_query)
 
 # Configure logging with different error levels
 logging.basicConfig(
@@ -15,6 +61,14 @@ logging.basicConfig(
 def log_and_respond(error_type, error_message, status_code):
     """Utility function to log errors and create a JSON response."""
     logging.error(f"Error Type: {error_type}, Message: {error_message}")
+    connection = create_connection()
+    if connection is not None:
+        log_error_query = f"""
+        INSERT INTO logs (level, message)
+        VALUES ('{error_type}', '{error_message}');
+        """
+        execute_query(connection, log_error_query)
+        connection.close()
     return jsonify({"error": f"Error Type: {error_type}, Message: {error_message}"}), status_code
 
 @app.route('/logs', methods=['GET'])
@@ -98,3 +152,4 @@ def key_error():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
